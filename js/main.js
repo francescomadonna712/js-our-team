@@ -57,6 +57,7 @@ for (let i = 0; i < staff.length; i++) {
 
     cardMember.innerHTML += `
     <h1>${member["Nome"]}</h1>
+    <h2>${member["Cognome"]}</h2>
     <h3>${member["Ruolo"]}</h3>
     <img>${member["Image"]}
   `
